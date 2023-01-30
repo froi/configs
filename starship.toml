@@ -1,0 +1,65 @@
+[directory]
+read_only = " "
+
+[aws]
+symbol = "  "
+
+[buf]
+symbol = " "
+
+
+[docker_context]
+symbol = " "
+
+[git_branch]
+symbol = " "
+
+[gcloud]
+format = "on [$symbol$project(\\($region\\))  $account(@$domain)]($style) "
+symbol = " "
+style = "bold red"
+project_aliases.platform-dev-rotw-67b6 = "platform-dev-rotw"
+project_aliases.platform-stg-rotw-e4c4 = "platform-stg-rotw"
+project_aliases.platform-uat-rotw-767c = "platform-uat-rotw"
+project_aliases.platform-prd-rotw-894d = "platform-prd-rotw"
+project_aliases.sandbox-dev-rotw-316c  = "sandbox-dev-rotw"
+project_aliases.gke-dev-rotw-a5f8      = "gke-dev-rotw"
+project_aliases.gke-prd-rotw-d0aa      = "gke-prd-rotw"
+project_aliases.gke-stg-rotw-41a3      = "gke-stg-rotw"
+project_aliases.gke-uat-rotw-665c      = "gke-uat-rotw"
+
+[golang]
+symbol = " "
+
+[kubernetes]
+disabled = false
+
+[lua]
+symbol = " "
+
+[memory_usage]
+symbol = " "
+
+[meson]
+symbol = "喝 "
+
+[nim]
+symbol = " "
+
+[nix_shell]
+symbol = " "
+
+[nodejs]
+symbol = " "
+
+[package]
+symbol = " "
+
+[python]
+symbol = " "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = " "

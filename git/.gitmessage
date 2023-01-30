@@ -1,0 +1,40 @@
+# <type>: (If applied, this commit will...) <issue> <subject> (Max 50 char)
+# |<----  Using a Maximum Of 50 Characters  ---->|
+
+
+# Explain why this change is being made
+# |<----   Try To Limit Each Line to a Maximum Of 72 Characters   ---->|
+
+# Provide links or keys to any relevant tickets, articles or other resources
+# Example: Github issue #23
+
+# --- COMMIT END ---
+# Type can be
+#    feat     (new feature)
+#    bug      (bug fix)
+#    ref      (refactoring production code)
+#    style    (formatting, missing semi colons, etc; no code change)
+#    docs     (changes to documentation)
+#    test     (adding or refactoring tests; no production code change)
+#    chore    (updating grunt tasks etc; no production code change)
+# --------------------
+# Issue can be
+#    <GitHub issue> The GitHub issue number that this commit is for Eg. gh #12
+#    <jira issue id> The Jira issue / ticket this commit is for Eg. JIRA-111
+# GitHub issues are included here for consistency but have no effect.
+# The Jira issue / ticket needs to be included if you are using smart commits
+# https://support.atlassian.com/jira-cloud-administration/docs/enable-smart-commits/
+# --------------------
+# To write a good commit message take a look at https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+# TLDR
+#   - Capitalize the subject line
+#   - Use the imperative mood in the subject line
+#   - Do not end the subject line with a period
+#   - Separate subject from body with a blank line
+#   - Use the body to explain what and why vs. how
+#   - Can use multiple lines with "-" for bullet points in body
+# --------------------
+# For updated template, visit:
+# https://gist.github.com/adeekshith/cd4c95a064977cdc6c50
+# Licence CC
+
