@@ -1,12 +1,12 @@
 [user]
   name = Froilán Irizarry Rivera
   email = 1918027+froi@users.noreply.github.com
-  signingkey = 
+  signingkey = F11FF96362DA7BE3
 
 
 [core]
   excludesFile = ~/.config/git/.gitignore_global
-  editor = nvim 
+  editor = nvim
   quotePath = false
 
 [color]
@@ -19,7 +19,7 @@
 [difftool]
   prompt = true
 [diff]
-  tool = nvimdiff 
+  tool = nvimdiff
 [difftool "nvimdiff"]
   cmd = nvim -d "$LOCAL" "$REMOTE"
 

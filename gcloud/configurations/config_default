@@ -1,0 +1,9 @@
+[auth]
+disable_credentials = true
+
+[core]
+project = local-emulator
+
+[api_endpoint_overrides]
+spanner = http://localhost:9020/
+bigtableadmin = http://localhost:8086/
