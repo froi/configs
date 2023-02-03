@@ -1,6 +1,7 @@
 # Added by Toolbox App
-eval "$(starship init zsh)"
 eval "$(/opt/homebrew/bin/brew shellenv)"
+eval "$(starship init zsh)"
+
 
 if type brew &>/dev/null
 then
