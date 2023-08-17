@@ -20,3 +20,8 @@ zsh/*
 zsh/antigen/*
 !zsh/antigen/antigen.zsh
 !zsh/starship.toml
+
+tmux/*
+!tmux/plugins/.gitkeep
+!tmux/tmux.conf
+
