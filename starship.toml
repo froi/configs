@@ -22,11 +22,11 @@ project_aliases.platform-dev-rotw-67b6 = "platform-dev-rotw"
 project_aliases.platform-stg-rotw-e4c4 = "platform-stg-rotw"
 project_aliases.platform-uat-rotw-767c = "platform-uat-rotw"
 project_aliases.platform-prd-rotw-894d = "platform-prd-rotw"
-project_aliases.sandbox-dev-rotw-316c  = "sandbox-dev-rotw"
-project_aliases.gke-dev-rotw-a5f8      = "gke-dev-rotw"
-project_aliases.gke-prd-rotw-d0aa      = "gke-prd-rotw"
-project_aliases.gke-stg-rotw-41a3      = "gke-stg-rotw"
-project_aliases.gke-uat-rotw-665c      = "gke-uat-rotw"
+project_aliases.sandbox-dev-rotw-316c = "sandbox-dev-rotw"
+project_aliases.gke-dev-rotw-a5f8 = "gke-dev-rotw"
+project_aliases.gke-prd-rotw-d0aa = "gke-prd-rotw"
+project_aliases.gke-stg-rotw-41a3 = "gke-stg-rotw"
+project_aliases.gke-uat-rotw-665c = "gke-uat-rotw"
 
 [golang]
 symbol = " "
@@ -38,13 +38,13 @@ disabled = false
 symbol = " "
 
 [memory_usage]
-symbol = " "
+symbol = "🐏 "
 
 [meson]
 symbol = "喝 "
 
 [nim]
-symbol = " "
+symbol = "👑 "
 
 [nix_shell]
 symbol = " "
@@ -53,7 +53,7 @@ symbol = " "
 symbol = " "
 
 [package]
-symbol = " "
+symbol = "📦 "
 
 [python]
 symbol = " "
