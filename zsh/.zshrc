@@ -1,7 +1,8 @@
 # Added by Toolbox App
 eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(starship init zsh)"
-
+source "$(brew --prefix asdf)/libexec/asdf.sh"
+eval "$(direnv hook zsh)"
 
 if type brew &>/dev/null
 then
@@ -12,7 +13,6 @@ then
   compinit
 fi
 
-source "$(brew --prefix)/opt/asdf/libexec/asdf.sh"
 source $ZDOTDIR/exports.zsh
 source $ZDOTDIR/antigen/antigen.zsh
 
