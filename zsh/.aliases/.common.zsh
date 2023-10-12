@@ -51,6 +51,7 @@ alias cp='cp -i'
 alias mv='mv -i'
 
 alias vim='nvim'
+alias cat='bat'
 
 # zsh is able to auto-do some kungfoo
 # depends on the SUFFIX :)
