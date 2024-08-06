@@ -15,6 +15,7 @@ local
 
 zsh/*
 !zsh/exports.zsh
+!zsh/funcs.zsh
 !zsh/.zshrc
 !zsh/.aliases
 zsh/antigen/*
