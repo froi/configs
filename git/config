@@ -51,4 +51,9 @@
 [init]
   defaultBranch = main
 
+; [includeIf "gitdir:~/workspace/"]
+;   path = ~/workspace/.gitconfig
+;
+; [includeIf "gitdir:~/uplight-workspace/"]
+;   path = ~/uplight-workspace/.gitconfig
 
