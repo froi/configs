@@ -4,8 +4,7 @@ eval "$(starship init zsh)"
 source "$(brew --prefix asdf)/libexec/asdf.sh"
 eval "$(direnv hook zsh)"
 
-if type brew &>/dev/null
-then
+if type brew &>/dev/null; then
   #FPATH="$(brew --prefix)/share/zsh/site-functions:$ZDOTDIR/plugins/zsh-completions/src:${FPATH}"
   # FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
     FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
@@ -39,6 +38,9 @@ eval "$(direnv hook zsh)"
 eval "$(op completion zsh)"; compdef _op op
 eval "$(pyenv init -)"
 source "${XDG_CONFIG_HOME}/op/plugins.sh"
+source <(fzf --zsh)
+eval "$(zoxide init zsh --cmd cd)"
+source "${XDG_CONFIG_HOME}/zsh/funcs.zsh"
 
 # The next line updates PATH for the Google Cloud SDK installed by ASDF
 current_gcloud=$(asdf current gcloud | awk '{ print $2 }')
