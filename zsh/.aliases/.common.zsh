@@ -2,6 +2,10 @@
 # Use with caution
 #
 
+# tmux shortcuts
+alias tmxa='tmux attach-session -t '
+alias tmxn='tmux new -s '
+
 # ls, the common ones I use a lot shortened for rapid fire usage
 alias l='ls -alFh'    #size,show type,human readable
 alias la='ls -lAFh'   #long list,show almost all,show type,human readable
