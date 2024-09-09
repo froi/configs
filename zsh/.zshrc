@@ -1,8 +1,5 @@
 # Initialize system requirements
 eval "$(/opt/homebrew/bin/brew shellenv)"
-eval "$(starship init zsh)"
-source "$(brew --prefix asdf)/libexec/asdf.sh"
-eval "$(direnv hook zsh)"
 
 if type brew &>/dev/null; then
   #FPATH="$(brew --prefix)/share/zsh/site-functions:$ZDOTDIR/plugins/zsh-completions/src:${FPATH}"
@@ -47,3 +44,4 @@ current_gcloud=$(asdf current gcloud | awk '{ print $2 }')
 if [ -f "$HOME/.asdf/installs/gcloud/${current_gcloud}/path.zsh.inc" ]; then . "$HOME/.asdf/installs/gcloud/${current_gcloud}/path.zsh.inc"; fi
 if [ -f "$HOME/.asdf/installs/gcloud/${current_gcloud}/completion.zsh.inc" ]; then . "$HOME/.asdf/installs/gcloud/${current_gcloud}/completion.zsh.inc"; fi
 
+export PATH="/Users/froi/.rd/bin:$PATH"
