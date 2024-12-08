@@ -1,28 +1,2 @@
-# This gitignore uses pattern negation extensively. For more details, see
-# https://git-scm.com/docs/gitignore#_pattern_format
 
-cache/
-
-gcloud/*
-!gcloud/configurations
-gcloud/configurations/*
-!gcloud/configurations/config_default
-################################
-
-iterm2/AppSupport
-
-local
-
-zsh/*
-!zsh/exports.zsh
-!zsh/funcs.zsh
-!zsh/.zshrc
-!zsh/.aliases
-zsh/antigen/*
-!zsh/antigen/antigen.zsh
-!zsh/starship.toml
-
-tmux/*
-!tmux/plugins/.gitkeep
-!tmux/tmux.conf
 
