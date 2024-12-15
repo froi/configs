@@ -11,12 +11,12 @@ if type brew &>/dev/null; then
 fi
 
 # My custom settings
-# My custom settings
-source $ZDOTDIR/exports.zsh
-source $ZDOTDIR/.aliases/.common.zsh
+source "$ZDOTDIR/exports.zsh"
+source "$ZDOTDIR/.aliases/.common.zsh"
+source "${ZDOTDIR}/funcs.zsh"
 
 # Antigen configs
-source $ZDOTDIR/antigen/antigen.zsh
+source "${ADOTDIR}/antigen.zsh"
 antigen use oh-my-zsh
 antigen bundle git
 antigen bundle command-not-found
@@ -37,11 +37,10 @@ eval "$(pyenv init -)"
 source "${XDG_CONFIG_HOME}/op/plugins.sh"
 source <(fzf --zsh)
 eval "$(zoxide init zsh --cmd cd)"
-source "${XDG_CONFIG_HOME}/zsh/funcs.zsh"
+source $(brew --prefix)/share/zsh-autosuggestions
 
 # The next line updates PATH for the Google Cloud SDK installed by ASDF
 current_gcloud=$(asdf current gcloud | awk '{ print $2 }')
 if [ -f "$HOME/.asdf/installs/gcloud/${current_gcloud}/path.zsh.inc" ]; then . "$HOME/.asdf/installs/gcloud/${current_gcloud}/path.zsh.inc"; fi
 if [ -f "$HOME/.asdf/installs/gcloud/${current_gcloud}/completion.zsh.inc" ]; then . "$HOME/.asdf/installs/gcloud/${current_gcloud}/completion.zsh.inc"; fi
 
-export PATH="/Users/froi/.rd/bin:$PATH"
