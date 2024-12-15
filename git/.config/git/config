@@ -1,8 +1,7 @@
 [user]
   name = Froilán Irizarry Rivera
-  email = 1918027+froi@users.noreply.github.com
-  signingkey = 0xF11FF96362DA7BE3
-
+  email =
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBPUyf9NoutpwTnLJs43HgkDXMENpy2di7+jAbKDWbL1
 
 [core]
   excludesFile = ~/.config/git/.gitignore_global
@@ -24,9 +23,9 @@
   cmd = nvim -d "$LOCAL" "$REMOTE"
 
 [merge]
-  tool = vscode
+  tool =
 [mergetool "vscode"]
-  cmd = code --wait $MERGED
+  cmd =
 
 [format]
   pretty=format:%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset
@@ -35,7 +34,7 @@
   insteadOf = https://github.com/
 [push]
   default = simple
-	autoSetupRemote = true
+  autoSetupRemote = true
 [filter "lfs"]
   clean = git-lfs clean -- %f
   smudge = git-lfs smudge -- %f
@@ -47,6 +46,8 @@
 [pull]
   rebase = false
 [gpg]
-  program = gpg
+  format = ssh
 [init]
   defaultBranch = main
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign

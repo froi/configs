@@ -1,3 +1,4 @@
+# Shortcut for yazi file browser
 function yy() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
 	yazi "$@" --cwd-file="$tmp"
