@@ -18,11 +18,10 @@ belak/zsh-utils path:editor
 belak/zsh-utils path:history
 
 # Utilities
-zshzoo/macos conditional:is-macos
 belak/zsh-utils path:utility
 romkatv/zsh-bench kind:path
 
-ohmyzsh/ohmyzsh path:plugins/alias
+ohmyzsh/ohmyzsh path:plugins/aliases
 ohmyzsh/ohmyzsh path:plugins/command-not-found
 ohmyzsh/ohmyzsh path:plugins/common-aliases
 ohmyzsh/ohmyzsh path:plugins/extract
@@ -34,7 +33,6 @@ ohmyzsh/ohmyzsh path:plugins/kubectx
 # ohmyzsh/ohmyzsh path:plugins/redis-cli
 ohmyzsh/ohmyzsh path:plugins/rust
 ohmyzsh/ohmyzsh path:plugins/skaffold
-ohmyzsh/ohmyzsh path:plugins/thefuck
 # ohmyzsh/ohmyzsh path:plugins/tmux
 # ohmyzsh/ohmyzsh path:plugins/uv
 
