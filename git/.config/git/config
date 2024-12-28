@@ -1,0 +1,53 @@
+[user]
+  name = Froilán Irizarry Rivera
+  email =
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBPUyf9NoutpwTnLJs43HgkDXMENpy2di7+jAbKDWbL1
+
+[core]
+  excludesFile = ~/.config/git/.gitignore_global
+  editor = nvim
+  quotePath = false
+
+[color]
+  interactive = true
+  status = true
+  branch = true
+  diff = true
+  ui = true
+
+[difftool]
+  prompt = true
+[diff]
+  tool = nvimdiff
+[difftool "nvimdiff"]
+  cmd = nvim -d "$LOCAL" "$REMOTE"
+
+[merge]
+  tool =
+[mergetool "vscode"]
+  cmd =
+
+[format]
+  pretty=format:%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset
+
+[url "git@github.com:"]
+  insteadOf = https://github.com/
+[push]
+  default = simple
+  autoSetupRemote = true
+[filter "lfs"]
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  required = true
+  process = git-lfs filter-process
+[commit]
+  template = ~/.config/git/.gitmessage
+  gpgSign = true
+[pull]
+  rebase = false
+[gpg]
+  format = ssh
+[init]
+  defaultBranch = main
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign

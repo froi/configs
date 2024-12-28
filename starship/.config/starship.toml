@@ -1,0 +1,56 @@
+[directory]
+read_only = " "
+
+[aws]
+symbol = "  "
+
+[buf]
+symbol = " "
+
+
+[docker_context]
+symbol = " "
+
+[git_branch]
+symbol = " "
+
+[gcloud]
+format = "on [$symbol$project(\\($region\\))  $account(@$domain)]($style) "
+symbol = " "
+style = "bold red"
+
+[golang]
+symbol = " "
+
+[kubernetes]
+disabled = false
+
+[lua]
+symbol = " "
+
+[memory_usage]
+symbol = "🐏 "
+
+[meson]
+symbol = "喝 "
+
+[nim]
+symbol = "👑 "
+
+[nix_shell]
+symbol = " "
+
+[nodejs]
+symbol = " "
+
+[package]
+symbol = "📦 "
+
+[python]
+symbol = " "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = " "

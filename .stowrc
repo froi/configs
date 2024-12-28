@@ -1,0 +1,12 @@
+--target="$HOME"
+--ignore=setup.sh
+--ignore=alacritty
+--ignore=.gitignore
+--ignore=.stowrc
+--ignore=./zsh/.zcompdump
+--ignore=./zsh/.zsh_history
+--ignore=./zsh/.zhistory
+--ignore=.zsh_plugins.zsh
+--ignore=DS_Store
+--ignore=README
+--ignore=LICENSE
