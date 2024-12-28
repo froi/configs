@@ -1,7 +1,17 @@
 [user]
   name = Froilán Irizarry Rivera
-  email =
-	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBPUyf9NoutpwTnLJs43HgkDXMENpy2di7+jAbKDWbL1
+  email = code@froi.dev
+  signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBPUyf9NoutpwTnLJs43HgkDXMENpy2di7+jAbKDWbL1
+
+[gpg]
+  format = ssh
+
+[gpg "ssh"]
+  program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+
+[commit]
+  gpgsign = true
+  template = ~/.config/git/.gitmessage
 
 [core]
   excludesFile = ~/.config/git/.gitignore_global
@@ -40,14 +50,7 @@
   smudge = git-lfs smudge -- %f
   required = true
   process = git-lfs filter-process
-[commit]
-  template = ~/.config/git/.gitmessage
-  gpgSign = true
 [pull]
   rebase = false
-[gpg]
-  format = ssh
 [init]
   defaultBranch = main
-[gpg "ssh"]
-	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
