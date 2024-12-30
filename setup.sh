@@ -27,8 +27,8 @@ if [ -d "$nvim_dir" ]; then
     vared -p "Create a backup and reinstall? [y/N]" -c response
     if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
         mv "$nvim_dir" "$nvim_dir".bk_up
-        git clone --depth 1 https://github.com/AstroNvim/template ~/.config/nvim
-        rm -rf ~/.config/nvim/.git
+        git clone --depth 1 https://github.com/AstroNvim/template "$nvim_dir"
+        rm -rf "$nvim_dir/.git"
     else
         echo "Skipping NVIM installation"
     fi
@@ -37,6 +37,14 @@ else
     git clone --depth 1 https://github.com/AstroNvim/template "$nvim_dir"
     rm -rf "$nvim_dir"/.git
 fi
+
+echo "Installing TPM"
+git clone https://github.com/tmux-plugins/tpm "$XDG_CONFIG_HOME/tmux/plugins/tpm"
+
+echo "Setting up Catppuccin/tmux"
+catppuccin_dir="$XDG_CONFIG_HOME/tmux/plugins/catppuccin"
+mkdir -p catppuccin_dir
+git clone -b v2.1.2 https://github.com/catppuccin/tmux.git $catppuccin_dir
 
 echo "Creating ZSH completion directories"
 mkdir -p "$XDG_DATA_HOME"/zsh/site-functions
@@ -80,6 +88,7 @@ else
     echo "cargo not installed. You need to install Rust https://www.rust-lang.org/tools/install.
     This script should have used mise to install Rust."
 fi
+
 
 echo "Sourcing ZSHRC"
 source "$ZDOTDIR/.zshrc"
