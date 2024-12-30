@@ -2,3 +2,5 @@
 .zhistory
 .zsh_history
 .zcompcache
+tmux/.config/tmux/plugins
+
