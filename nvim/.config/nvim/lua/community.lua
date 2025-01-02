@@ -2,6 +2,7 @@
 return {
 	"AstroNvim/astrocommunity",
 	{ import = "astrocommunity.pack.docker" },
+	{ import = "astrocommunity.pack.full-dadbod" },
 	{ import = "astrocommunity.pack.go" },
 	{ import = "astrocommunity.pack.godot" },
 	{ import = "astrocommunity.pack.json" },
