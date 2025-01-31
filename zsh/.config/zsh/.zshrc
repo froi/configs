@@ -21,8 +21,9 @@ eval "$($(brew --prefix)/bin/mise activate zsh)"
 eval "$(uv generate-shell-completion zsh)"
 eval "$(uvx --generate-shell-completion zsh)"
 
-antidote load
-
 source "$ZDOTDIR/exports.zsh"
 source "$ZDOTDIR/.aliases/.common.zsh"
 source "$ZDOTDIR/funcs.zsh"
+eval "$(pyenv init -)"
+antidote load
+

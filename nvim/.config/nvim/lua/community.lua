@@ -11,7 +11,7 @@ return {
 	{ import = "astrocommunity.pack.proto" },
 	{ import = "astrocommunity.pack.python" },
 	{ import = "astrocommunity.pack.rust" },
-	{ import = "astrocommunity.pack.sql" },
+	-- { import = "astrocommunity.pack.sql" },
 	{ import = "astrocommunity.pack.templ" },
 	{ import = "astrocommunity.pack.terraform" },
 	{ import = "astrocommunity.pack.toml" },
