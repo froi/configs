@@ -3,3 +3,5 @@ font-family = "FiraCode Nerd Font"
 font-size = 16
 window-colorspace = display-p3
 macos-titlebar-style = tabs
+unfocused-split-opacity = 0.8
+unfocused-split-fill = #6c7086
