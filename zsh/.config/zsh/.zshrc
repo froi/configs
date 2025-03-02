@@ -17,7 +17,7 @@ eval "$(op completion zsh)"; compdef _op op
 eval "$(zoxide init zsh --cmd cd)"
 source <(fzf --zsh)
 source $(brew --prefix)/opt/antidote/share/antidote/antidote.zsh
-eval "$($(brew --prefix)/bin/mise activate zsh)"
+eval "$(mise activate zsh)"
 eval "$(uv generate-shell-completion zsh)"
 eval "$(uvx --generate-shell-completion zsh)"
 
@@ -26,4 +26,3 @@ source "$ZDOTDIR/.aliases/.common.zsh"
 source "$ZDOTDIR/funcs.zsh"
 eval "$(pyenv init -)"
 antidote load
-
