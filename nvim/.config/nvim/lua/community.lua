@@ -26,5 +26,6 @@ return {
 	{ import = "astrocommunity.git.fugit2-nvim" },
 	{ import = "astrocommunity.utility.noice-nvim" },
 	{ import = "astrocommunity.colorscheme.catppuccin" },
+	{ import = "astrocommunity.media.image-nvim" },
 	-- import/override with your plugins folder
 }
