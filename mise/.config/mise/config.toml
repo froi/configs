@@ -1,7 +1,8 @@
 [tools]
+deno = "latest"
 go = "latest"
 node = "latest"
-python = "3.13.0"
+python = "latest"
 rust = "latest"
 
 [env]
