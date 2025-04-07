@@ -28,7 +28,7 @@ alias mv='mv -i'
 
 alias vim='nvim'
 alias cat='bat'
-
+alias glgf='git log --stat --format=full'
 # zsh is able to auto-do some kungfoo
 # depends on the SUFFIX :)
 autoload -Uz is-at-least

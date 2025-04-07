@@ -10,8 +10,11 @@ else
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
-echo "Installing software from Brewfile"
+echo "Installing software from base Brewfile"
 brew bundle install --file brew/.config/Brewfile
+echo "If you want to install optional Brew packages run 
+    brew bundel install --file ~/.config/Brewfile.optional
+once this setup is done"
 
 echo "Installing dotfiles"
 stow
