@@ -1,0 +1,25 @@
+tap "heroku/brew"
+
+brew "doctl"
+brew "heroku"
+brew "mas"
+brew "podman"
+
+cask "calibre"
+cask "cleanshot"
+cask "dropbox"
+cask "elgato-control-center"
+cask "elgato-stream-deck"
+cask "elgato-wave-link"
+cask "logi-options+"
+cask "podman-desktop"
+cask "raycast"
+cask "signal"
+cask "whatsapp"
+cask "vscodium"
+cask "zed"
+cask "zoom"
+
+
+mas 775737590 # IA Writer
+mas 6714467650 # Perplexity.ai
