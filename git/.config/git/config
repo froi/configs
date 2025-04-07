@@ -1,7 +1,5 @@
 [user]
   name = Froilán Irizarry Rivera
-  email = code@froi.dev
-  signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBPUyf9NoutpwTnLJs43HgkDXMENpy2di7+jAbKDWbL1
 
 [gpg]
   format = ssh
@@ -42,6 +40,8 @@
 
 [url "git@github.com:"]
   insteadOf = https://github.com/
+[url "git@gitlab.com"]
+  insteadOf = https://gitlab.com/
 [push]
   default = simple
   autoSetupRemote = true
@@ -54,3 +54,8 @@
   rebase = false
 [init]
   defaultBranch = main
+
+[includeif "gitdir:~/dev/work/"]
+  path = ~/.config/git/work.config
+[includeif "gitdir:~/dev/personal/"]
+  path = ~/.config/git/personal.config
