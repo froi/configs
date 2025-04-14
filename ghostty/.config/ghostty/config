@@ -9,4 +9,4 @@ window-colorspace = display-p3
 macos-titlebar-style = tabs
 unfocused-split-opacity = 0.8
 unfocused-split-fill = #6c7086
-macos-option-as-alt = false
+macos-option-as-alt = left 
