@@ -10,6 +10,7 @@ alias tmxn='tmux new -s '
 # ls, the common ones I use a lot shortened for rapid fire usage
 # alias l='ls -alFh'    #size,show type,human readable
 alias zshrc='${=EDITOR} ${ZDOTDIR:-$HOME}/.zshrc' # Quick access to the .zshrc file
+# alias rzsh ='source ${ZDOTDIR:-$HOME}/.zshrc'
 
 alias grep='grep --color'
 alias sgrep='grep -R -n -H -C 5 --exclude-dir={.git,.svn,CVS} '
@@ -29,6 +30,8 @@ alias mv='mv -i'
 alias vim='nvim'
 alias cat='bat'
 alias glgf='git log --stat --format=full'
+alias treed='tree -d --gitignore'
+
 # zsh is able to auto-do some kungfoo
 # depends on the SUFFIX :)
 autoload -Uz is-at-least

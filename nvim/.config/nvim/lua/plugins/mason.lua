@@ -17,7 +17,7 @@ local daps = {
 local lsps = {
 	"basedpyright",
 	"bash-language-server",
-	"deno",
+	-- "deno",
 	"docker-compose-language-service",
 	"dockerfile-language-server",
 	"eslint-lsp",
