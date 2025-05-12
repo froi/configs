@@ -34,6 +34,7 @@ local lsps = {
 	"templ",
 	"terraform-ls",
 	"typescript-language-server",
+	"vue-language-server",
 	"yaml-language-server",
 }
 local linters = {
