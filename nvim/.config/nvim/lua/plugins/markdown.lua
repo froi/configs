@@ -25,4 +25,13 @@ return {
 			vim.keymap.set("n", "<leader>mpc", peek.close)
 		end,
 	},
+	{
+		"brianhuster/live-preview.nvim",
+		dependencies = {
+			-- You can choose one of the following pickers
+			"nvim-telescope/telescope.nvim",
+			"ibhagwan/fzf-lua",
+			"echasnovski/mini.pick",
+		},
+	},
 }
