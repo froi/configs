@@ -1,0 +1,27 @@
+[default]
+app_url = 
+aws_default_duration = 5400
+client_id = 
+cred_profile = default
+force_classic = False
+gimme_creds_server = appurl
+okta_auth_server = 
+okta_org_url = 
+okta_username = <replace with your userid>
+open_browser = True
+output_format = export
+preferred_mfa_type = push
+remember_device = True
+resolve_aws_alias = True
+write_aws_creds = True
+ 
+[sandbox-role]
+inherits = default
+aws_rolename = 
+cred_profile = sandbox-role
+ 
+[dev-role]
+inherits = default
+aws_rolename = 
+cred_profile = dev-role
+
