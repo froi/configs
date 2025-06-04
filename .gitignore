@@ -4,4 +4,4 @@
 .zsh_sessions
 .zcompcache
 tmux/.config/tmux/plugins
-
+.okta_aws_login_config
