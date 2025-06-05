@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/services"
 brew "antidote"
+brew "ast-grep"
 brew "bat"
 brew "bottom"
 brew "fzf"
