@@ -9,7 +9,7 @@ return {
 		formatters_by_ft = {
 			templ = { "templ" },
 			go = { "goimports", "gofmt" },
+			sql = { "sqlfmt" },
 		},
-		format_on_save = { timeout_ms = 500, lsp_format = "fallback" },
 	},
 }
