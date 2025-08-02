@@ -10,6 +10,7 @@ return {
 			templ = { "templ" },
 			go = { "goimports", "gofmt" },
 			sql = { "sql_formatter" },
+			markdown = { "prettier" },
 		},
 	},
 }
