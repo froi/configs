@@ -9,7 +9,7 @@ return {
 		formatters_by_ft = {
 			templ = { "templ" },
 			go = { "goimports", "gofmt" },
-			sql = { "sqlfmt" },
+			sql = { "sql_formatter" },
 		},
 	},
 }
