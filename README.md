@@ -1,5 +1,8 @@
 # Configurations
 
+> [!IMPORTANT]
+> This repo has a new home <https://codeberg.org/froi/configs> and will be deleted in the future
+
 After spending way to long on my dotfiles and going over quite a few iterations of how to manage them over the years
 I've landed on this repo.
 
